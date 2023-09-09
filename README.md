@@ -1,3 +1,36 @@
+React Tic-Tac-Toe Gam
+--------------------------
+
+
+working-video
+------------------
+
+
+https://github.com/irshadirshu0722/Tic-Tac-game-with-react.js/assets/141476447/13422061-4053-4a43-ad1c-f4569115dd95
+
+
+
+Description:
+-----------------
+Welcome to the React Tic-Tac-Toe Game project! This is a simple implementation of the classic Tic-Tac-Toe game built using React, a popular JavaScript library for building user interfaces.
+
+Features:
+----------------
+
+>Play the timeless Tic-Tac-Toe game with a friend.
+>Interactive and responsive game board.
+>Keeps track of the game's state and announces the winner.
+>Option to restart the game at any time.
+>Clean and user-friendly interface.
+
+Technologies Used:
+-------------------
+React: The project is built entirely with React, making it a great example of using React for creating interactive web applications.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
