@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(207, 206, 206);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, #3498db, #2ecc71);
+}
+img{
+  width: 200px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.board{
+  width: 300px;
+}
+.board h1{
+  font-size: 20px;
+
+}
+.board h1 span{
+  color: red;
+}
+.board button{
+  width: 100px;
+  height: 100px;
+  border: 1px solid grey;
+  background:black;
+  position: relative;
+}
+.board button span{
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 40px;
+  opacity: 1;
+  animation: textsh 5s;
+}
+@keyframes textsh{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.board .winner{
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: showtext 2s;
+  display: flex;
+  flex-direction: column;
+}
+.board .winner::after{
+ position: absolute;
+  content: "";
+  top:100%;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  border-radius: 20px;
+  width: 0px;
+  animation: wid 2s;
+}
+@keyframes showtext{
+  0%{
+  opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes  wid {
+  0%{
+    width: 0;
+    left: 0;
+  }
+  50%{
+    width: 100%;
+    left: 0;
+  }
+  100%{
+    
+    width: 0%;
+    left: 100%;
+  }
+}
